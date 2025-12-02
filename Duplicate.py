@@ -1,9 +1,8 @@
-#You are designing a social media signup form, and each platform has rules for usernames. One of the common rules is that a username must be between a certain number of characters — not too short, not too long.
-#To help enforce this rule, you need a program that:
-#Accepts a username from the user.
-#Calculates the length of the username.
-#Displays the length.
-#Optionally tells the user whether the username is too short, too long, or acceptable.
+#_duplicate_record - You're helping analyze the results of a student survey where participants were asked to name their favorite movie. Since many students love the same popular movies, some movie titles appear multiple times in the results.
+#Your job is to write a program that:
+#Accepts a list of favorite movie titles.
+#Uses a for loop to count how many times each movie was mentioned.
+#Displays only the movie titles that were mentioned more than once.
 
 # List of favorite movies (example input)
 movies = [
